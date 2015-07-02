@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'bootsto';
+
+var bootstoCli = require('../cli.js');
+
+bootstoCli.run(process.argv);
